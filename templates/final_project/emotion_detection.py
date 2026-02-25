@@ -1,6 +1,5 @@
 import requests
 import json
-
 def emotion_detector(text_to_analyse):
     # Return None if text is empty
     if not text_to_analyse or text_to_analyse.strip() == "":
